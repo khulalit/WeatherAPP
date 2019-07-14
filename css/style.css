@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(152,71,149);
+    background: linear-gradient(90deg, rgba(152,71,149,0.42338933864561445) 35%, rgba(137,114,201,1) 100%, rgba(0,212,255,1) 100%);
+}
+.weather-box{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Roboto', monospace;
+    animation-name: introduction;
+    animation-duration: 2s;
+    
+   
+}
+.row1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+.location-timezone {
+    color: white;
+    font-size: 50px;
+}
+
+.icons {
+    width: 100px;
+    padding-right: 30%;
+    
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.row2:hover .temp-val{
+    color: #3a3349;
+}
+.row2:hover .temp-span {
+    color: white;
+}
+.temp-val{
+    color: white;
+    font-size: 80px;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: color 1s;
+}
+.temp-span {
+    color: whitesmoke;
+    font-size: 80px;
+    cursor: pointer;
+    transition: color 1s;
+}
+.weather-dis{
+    text-align: center;
+    color: white;
+}
+.made-by{
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    font-size: 18px;
+}
+
