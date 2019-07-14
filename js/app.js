@@ -33,12 +33,12 @@ window.addEventListener("load", function()
                 seticons(icon , document.querySelector(".icon1"));
                
                 tempSpan.addEventListener("click", () => {
-                    if(tempSpan.textContent === "°F") {
-                        tempSpan.textContent = "°C";
+                    if(tempSpan.textContent === "F") {
+                        tempSpan.textContent = "C";
                         temperaturel.textContent = ((temperaturel.textContent - 32)*(5/9)).toFixed(2);
                     }
                     else { 
-                        tempSpan.textContent = "°F";
+                        tempSpan.textContent = "F";
                         temperaturel.textContent = ((temperaturel.textContent*1.8)+32).toFixed(2);
 
                     }
