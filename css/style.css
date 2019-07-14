@@ -52,11 +52,11 @@
     border-bottom: 1px solid white;
     padding-bottom: 10px;
 }
-/*.row2:hover .temp-val{
-    color: #3a3349;*/
+.row2:hover .temp-val{
+    color: #3a3349;
 }
 .row2:hover .temp-span {
-    color: #3a3349;
+    color: white;
 }
 .temp-val{
     color: white;
