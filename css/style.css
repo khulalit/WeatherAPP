@@ -52,8 +52,8 @@
     border-bottom: 1px solid white;
     padding-bottom: 10px;
 }
-.row2:hover .temp-val{
-    color: #3a3349;
+/*.row2:hover .temp-val{
+    color: #3a3349;*/
 }
 .row2:hover .temp-span {
     color: white;
@@ -83,4 +83,62 @@
     padding: 10px;
     font-size: 18px;
 }
+.weather-days{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+
+    width: 50%;
+}
+.block1, .block2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+@keyframes introduction {
+    0%{
+        bottom: -320px;
+        opacity: 0;
+        
+    }
+    100%{
+        
+        opacity:1;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .row1{
+        flex-direction: column;
+    }
+    .location-timezone {
+        font-size: 30px;
+    }
+    .made-by{
+        display: none;
+    }
+    .block1{
+        padding: 20px;
+    }
+    .block2{
+        padding: 20px;
+    }
+    .weather-days{
+        font-size: 16px;
+    }
+    .container{
+        height: 130vh;
+    }
+    
+    
+   
+    
+}   
+
 
