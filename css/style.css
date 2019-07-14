@@ -71,11 +71,6 @@
     cursor: pointer;
     transition: color 1s;
 }
-sup {
-    font-size: 50px;
-    padding-left: 10px;
-    font-weight: bold;
-}
 .weather-dis{
     text-align: center;
     color: white;
